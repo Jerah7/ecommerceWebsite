@@ -1,0 +1,72 @@
+.checkout {
+    margin-top: 150px;
+    padding-bottom: 15px;
+}
+
+.checkout .paper {
+    max-width: 600px;
+    padding: 20px 15px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right, #fffefe, #fadead);
+}
+
+.checkout .paper h6 {
+    margin: 20px 0;
+}
+
+.checkout .paper .actions.payment-actions {
+    margin-top: 25;
+}
+
+.checkout .paper .actions {
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout .paper .actions a {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.checkout .paper .stepper {
+    margin-bottom: 10px;
+    background-color: linear-gradient(to bottom right, #fffefe, #fadead);
+}
+
+.products-spinner {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.confirmation h5 {
+    margin: 20px 0;
+}
+
+.confirmation a {
+    background-color: #db9a24;
+}
+
+.confirmation a:hover {
+    color: #c9d1d9;
+    background-color: #db9a24;
+}
+
+.actions .back {
+    background-color: #db9a24;
+}
+
+.actions .next {
+    background-color: #db9a24;
+}
+
+.actions .back:hover {
+    color: #c9d1d9;
+    background-color: #db9a24;
+}
+
+.actions .next:hover {
+    color: #c9d1d9;
+    background-color: #db9a24;
+}

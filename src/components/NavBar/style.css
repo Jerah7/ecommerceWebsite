@@ -1,0 +1,41 @@
+.MuiAppBar-colorPrimary.navbar {
+    background-color: #eabd6a;
+}
+
+.MuiAppBar-colorPrimary.navbar {
+    padding: 0;
+}
+
+.basket-wrapper {
+    flex-grow: 1;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.profile-wrapper {
+    flex-grow: 100;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.navbar .title {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.navbar .title .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.basket:hover {
+    opacity: 0.7;
+}
+
+.profile:hover {
+    opacity: 0.7;
+}
+
+.web-title {
+    margin-left: 250px;
+}

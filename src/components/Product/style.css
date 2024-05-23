@@ -1,0 +1,69 @@
+/*Custom Card*/
+
+.MuiCard-root.custom-card {
+    background-color: #faefdd;
+    color: #000000;
+    transition: all 0.5s ease-in-out;
+}
+
+.MuiCard-root.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 5px #db9a24;
+}
+
+.custom-card .content {
+    padding-bottom: 0;
+}
+
+.custom-card .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom-card .card-image {
+    padding: 10px 10px 0 10px;
+}
+
+.custom-card p {
+    color: #f4f6f7;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom-card .price {
+    margin-top: 10px;
+    color: #db9a24;
+}
+
+.custom-card .basket-item-price {
+    color: #db9a24;
+    margin-bottom: 0;
+}
+
+.actions-content {
+    display: flex;
+}
+
+.actions-content h2 {
+    flex-grow: 1;
+}
+
+.custom-card .custom-button {
+    color: #db9a24;
+}
+
+.custom-card .custom-button:hover {
+    background-color: #db9a24;
+    color: #c9d1d9;
+}
+
+.custom-card .custom-button svg {
+    margin-right: 10px;
+}
+
+.custom-card .increase-product-quantity {
+    color: #c9d1d9;
+    border-color: #c9d1d9;
+}
